@@ -1,0 +1,89 @@
+.user-info-container {
+  height: 100vh;
+  overflow-y: scroll;
+  padding-bottom: 200px;
+}
+.user-info-container::-webkit-scrollbar {
+  width: 0;
+}
+.user-info-header {
+  padding: 8px 20px;
+  background-color: rgb(23, 23, 23);
+}
+.user-profile-mid-container {
+  display: grid;
+  width: 100%;
+}
+.user-cover-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.user-credentials {
+  display: grid;
+  margin-top: -150px;
+}
+.user-avatar-img {
+  display: flex;
+  justify-content: center;
+}
+.user-avatar-img img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.user-name-and-bio {
+  display: grid;
+  width: 100%;
+  padding: 20px 30px;
+  gap: 20px;
+}
+.user-name,
+.user-bio {
+  display: grid;
+}
+.user-input {
+  display: grid;
+  gap: 5px;
+}
+.user-input input,
+.user-input textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid rgb(80, 79, 79);
+  border-radius: 5px;
+  color: white;
+}
+.user-input textarea {
+  resize: vertical;
+  font-family: "Open Sans", sans-serif;
+}
+.user-input input:focus,
+.user-input textarea:focus {
+  outline: 1px solid rgb(68, 146, 68);
+}
+.action-buttons {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+  justify-content: center;
+}
+.action-button {
+  margin-top: 10px;
+  width: 100%;
+}
+.action-button button {
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  padding: 10px;
+  background-color: transparent;
+  border: 1px solid rgb(80, 79, 79);
+  border-radius: 5px;
+  color: white;
+}
+.action-button button[type="submit"] {
+  background-color: rgb(25, 182, 25);
+}

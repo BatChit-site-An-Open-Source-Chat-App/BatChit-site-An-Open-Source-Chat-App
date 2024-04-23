@@ -1,0 +1,17 @@
+.navbar-container {
+  background-color: #171515;
+  padding: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.navbar-container p {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 15px;
+}
+.navbar-container svg {
+  width: 20px;
+}

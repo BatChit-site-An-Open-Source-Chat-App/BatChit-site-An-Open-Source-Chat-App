@@ -1,0 +1,105 @@
+.search-form {
+  display: flex;
+  padding: 5px;
+  width: 100%;
+  background-color: rgb(29, 29, 29);
+}
+
+.search-input {
+  width: 95%;
+}
+
+.search-input input {
+  width: 100%;
+  padding: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 0;
+  background-color: rgb(52, 52, 52);
+  color: white;
+  padding-left: 15px;
+}
+
+.search-send-btn {
+  width: 10%;
+  min-width: 30px;
+}
+
+.search-send-btn button {
+  width: 100%;
+  padding: 8px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid rgb(65, 65, 65);
+  background-color: rgb(52, 52, 52);
+  color: white;
+  font-size: 20px;
+}
+
+.search-send-btn button:hover {
+  background-color: rgb(49, 49, 49);
+}
+
+.search-send-btn button:active {
+  background-color: rgb(55, 54, 54);
+}
+
+.search-input input:focus {
+  outline: 1px solid green;
+}
+.search-users {
+  width: 100%;
+}
+
+.search-user-card {
+  user-select: none;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 15px 10px 20px;
+  border-bottom: 1px solid rgb(47, 47, 47);
+}
+
+.search-profile img {
+  width: 50px;
+  height: 50px;
+  object-position: center;
+  background-position: center;
+  border-radius: 100%;
+  background-color: rgb(38, 38, 39);
+}
+
+.search-profile {
+  width: 50px;
+  height: 50px;
+  object-position: center;
+  background-position: center;
+  border-radius: 100%;
+  background-color: rgb(38, 38, 39);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-profile p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card-user-desc p:first-child {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.card-user-desc p:last-child {
+  color: rgb(103, 103, 103);
+  font-size: 14px;
+  font-weight: 400;
+}

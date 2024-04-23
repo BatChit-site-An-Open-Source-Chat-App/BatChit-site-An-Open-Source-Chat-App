@@ -1,0 +1,80 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+}
+.logo-image img {
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.login-mid-container {
+  width: 100vw;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.form-control {
+  width: 40vw;
+  background-color: rgb(18, 19, 19);
+  overflow-y: scroll;
+  border: 1px solid rgb(35, 34, 34);
+  border-radius: 10px;
+}
+.form-control::-webkit-scrollbar {
+  width: 0;
+}
+.form-heading {
+  text-align: center;
+}
+.form-heading p:first-child {
+  font-size: 25px;
+  margin-top: 30px;
+}
+.form-heading p:last-child {
+  font-size: 30px;
+  color: green;
+}
+/* Form */
+.form-input,
+.btn-control {
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.form-input {
+  display: grid;
+  gap: 15px;
+}
+.input {
+  display: grid;
+}
+.input label {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+.input input,
+.input select {
+  color: white;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: rgb(14, 13, 13);
+  border: 1px solid rgb(62, 61, 61);
+}
+.input input:focus {
+  border: 1px solid rgb(62, 61, 61);
+}
+.btn-control button {
+  color: white;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: rgb(14, 13, 13);
+  border: 1px solid rgb(62, 61, 61);
+  margin-top: 20px;
+  width: 100%;
+}
+.btn-control button:hover {
+  cursor: pointer;
+}

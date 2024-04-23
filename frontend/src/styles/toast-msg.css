@@ -1,0 +1,26 @@
+.toast-msg {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  background-color: rgb(37, 142, 11);
+  width: fit-content;
+  z-index: 100000;
+  padding: 4px 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.toast-msg p {
+  font-size: 15px;
+}
+
+.toast-msg svg {
+  padding: 4px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.toast-msg svg:hover {
+  background-color: rgb(183, 6, 6);
+  cursor: pointer;
+}

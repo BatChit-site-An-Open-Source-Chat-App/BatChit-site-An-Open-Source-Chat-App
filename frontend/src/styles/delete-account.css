@@ -1,0 +1,26 @@
+.delete-account {
+  padding: 20px;
+  display: grid;
+  gap: 10px;
+}
+.delete-account p {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.delete-account button {
+  padding: 8px;
+  width: 100%;
+  background-color: rgb(200, 4, 4);
+  color: white;
+  border: 1px solid rgb(61, 60, 60);
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.delete-account span {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(205, 9, 9);
+}

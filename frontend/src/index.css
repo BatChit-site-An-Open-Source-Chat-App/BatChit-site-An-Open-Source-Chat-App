@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --dark-theme-text: white;
+  --dark-theme-bg: rgb(17, 17, 17);
+
+  --light-theme-text: black;
+  --light-theme-bg: white;
+
+  --link-theme: hsl(120, 100%, 64%);
+}
+body {
+  background-color: var(--dark-theme-bg);
+  color: var(--dark-theme-text);
+  font-family: "Open Sans", sans-serif;
+  overflow-y: hidden;
+}
+a {
+  color: var(--link-theme);
+  text-decoration: none;
+}
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  pointer-events: none;
+}
+.all-members {
+  height: fit-content;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.all-members::-webkit-scrollbar {
+  width: 0px;
+}
+
+.logout-container {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  /* From https://css.glass */
+  background: rgba(90, 90, 90, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+}
+.logout-mid-container {
+  margin: auto;
+  background-color: rgb(52, 52, 51);
+  padding: 30px;
+  border-radius: 10px;
+}
+.logout-alert {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.logout-button {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.logout-button button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(49, 49, 49);
+  border: 1px solid rgb(98, 97, 97);
+}
+.logout-button button:hover {
+  background-color: rgb(71, 71, 71);
+}
+.logout-cross svg {
+  font-size: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 100%;
+  background-color: rgb(185, 92, 92);
+}
+.logout-cross svg:hover {
+  background-color: red;
+}

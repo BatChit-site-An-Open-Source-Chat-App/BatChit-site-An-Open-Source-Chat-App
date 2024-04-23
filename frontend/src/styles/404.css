@@ -1,0 +1,30 @@
+.page-not-found-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error-mid-container {
+  display: grid;
+  gap: 5px;
+}
+
+.error-mid-container h4 {
+  font-size: 70px;
+  margin-bottom: -10px;
+}
+
+.error-mid-container p {
+  font-size: 20px;
+}
+.error-mid-container a button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgb(37, 225, 37);
+  border: 1px solid rgb(56, 56, 56);
+  color: white;
+  font-size: 17px;
+}

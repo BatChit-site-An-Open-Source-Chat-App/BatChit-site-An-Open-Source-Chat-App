@@ -1,0 +1,40 @@
+.user-profile-container {
+  display: flex;
+  width: 100%;
+}
+.rightbar-profile-container,
+.no-home-rightbar-profile-container {
+  height: 100vh;
+  overflow-y: scroll !important;
+}
+.user-profile-mid-container {
+  display: grid;
+  width: 100%;
+}
+
+.user-profiletab {
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  user-select: none;
+  border-bottom: 1px solid rgb(44, 44, 44);
+}
+
+.tab-icon svg {
+  font-size: 25px;
+  display: flex;
+}
+
+.tab-title {
+  font-size: 17px;
+}
+
+.all-members {
+  padding: 10px 0;
+}
+
+.all-members:last-child {
+  border-bottom: 1px solid transparent;
+}
